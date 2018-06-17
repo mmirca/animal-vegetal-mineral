@@ -1,0 +1,27 @@
+{
+  "name": "animal-vegetal-mineral",
+  "version": "1.0.0",
+  "description": "Recreación del juego \"animal vegetal mineral\" en el terminal",
+  "main": "app.js",
+  "scripts": {
+    "init": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmirca/animal-vegetal-mineral.git"
+  },
+  "keywords": [
+    "animal",
+    "vegetal",
+    "mineral"
+  ],
+  "author": "mmirca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmirca/animal-vegetal-mineral/issues"
+  },
+  "homepage": "https://github.com/mmirca/animal-vegetal-mineral#readme",
+  "dependencies": {
+    "inquirer": "^6.0.0"
+  }
+}

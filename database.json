@@ -1,0 +1,118 @@
+{
+  "animal": {
+    "respuestas": {
+      "pájaro": {
+        "author": "mario",
+        "pattern": "0100x00xx"
+      },
+      "pez": {
+        "author": "mario",
+        "pattern": "100000xx1"
+      },
+      "perro": {
+        "author": "mario",
+        "pattern": "00100x0xx"
+      },
+      "pato": {
+        "author": "mario",
+        "pattern": "0101xxxxx"
+      },
+      "gato": {
+        "author": "mario",
+        "pattern": "00101xxxx"
+      },
+      "vaca": {
+        "author": "mario",
+        "pattern": "001x01010"
+      },
+      "cocodrilo": {
+        "author": "mario",
+        "pattern": "1x00001xx"
+      }
+    },
+    "preguntas": [
+      "¿Tiene escamas?",
+      "¿Tiene plumas?",
+      "¿Tiene pelo?",
+      "¿Puede nadar y volar?",
+      "¿Tiene \"7 vidas\"?",
+      "¿Da leche?",
+      "¿Es peligroso?",
+      "¿Tiene \"manchas\"?",
+      "¿Puede nadar?"
+    ]
+  },
+  "vegetal": {
+    "respuestas": {
+      "hierba": {
+        "author": "mario",
+        "pattern": "0000xxxxxx"
+      },
+      "lechuga": {
+        "author": "mario",
+        "pattern": "1110xxxxxx"
+      },
+      "fresa": {
+        "author": "mario",
+        "pattern": "1010xxxxxx"
+      },
+      "arbol": {
+        "author": "mario",
+        "pattern": "0101xxxxxx"
+      },
+      "flor": {
+        "author": "pepe",
+        "pattern": "x0001xxxxx"
+      },
+      "aguacate": {
+        "author": "carito",
+        "pattern": "x0x001xxxx"
+      },
+      "platano": {
+        "author": "mario",
+        "pattern": "10x0xx1xxx"
+      },
+      "naranja": {
+        "author": "mario",
+        "pattern": "1xx0000101"
+      },
+      "limon": {
+        "author": "mario",
+        "pattern": "100xxxxx1x"
+      }
+    },
+    "preguntas": [
+      "¿Se come?",
+      "¿Tiene hojas?",
+      "¿Se cultiva?",
+      "¿Tiene corteza?",
+      "¿Tiene pétalos?",
+      "¿tiene una semilla grande?",
+      "¿Es amarillo?",
+      "¿Es una fruta?",
+      "¿Tiene un sabor acido?",
+      "¿Es de color naranja?"
+    ]
+  },
+  "mineral": {
+    "respuestas": {
+      "sal": {
+        "author": "mario",
+        "pattern": "100"
+      },
+      "oro": {
+        "author": "mario",
+        "pattern": "010"
+      },
+      "cobre": {
+        "author": "mario",
+        "pattern": "011"
+      }
+    },
+    "preguntas": [
+      "¿Se usa en la cocina?",
+      "¿Se usa en joyería?",
+      "¿Se utiliza en las obras?"
+    ]
+  }
+}
