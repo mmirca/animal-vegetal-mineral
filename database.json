@@ -3,31 +3,43 @@
     "respuestas": {
       "pájaro": {
         "author": "mario",
-        "pattern": "0100x00xx"
+        "pattern": "0100x00x0x0xxxx"
       },
       "pez": {
         "author": "mario",
-        "pattern": "100000xx1"
+        "pattern": "100000xx1xxxxxx"
       },
       "perro": {
         "author": "mario",
-        "pattern": "00100x0xx"
+        "pattern": "00100x000xxxxxx"
       },
       "pato": {
         "author": "mario",
-        "pattern": "0101xxxxx"
+        "pattern": "0101000x1xxxxxx"
       },
       "gato": {
         "author": "mario",
-        "pattern": "00101xxxx"
+        "pattern": "00101xx0xx0xxxx"
       },
       "vaca": {
         "author": "mario",
-        "pattern": "001x01010"
+        "pattern": "001x01010xxxxxx"
       },
       "cocodrilo": {
         "author": "mario",
-        "pattern": "1x00001xx"
+        "pattern": "1x00001xxxxxxxx"
+      },
+      "delfin": {
+        "author": "mario",
+        "pattern": "x0x0000x111xxxx"
+      },
+      "murcielago": {
+        "author": "mario",
+        "pattern": "0x1000x00x111xx"
+      },
+      "oso": {
+        "author": "mario",
+        "pattern": "xxxx0xxx1000x11"
       }
     },
     "preguntas": [
@@ -39,46 +51,56 @@
       "¿Da leche?",
       "¿Es peligroso?",
       "¿Tiene \"manchas\"?",
-      "¿Puede nadar?"
+      "¿Puede nadar?",
+      "¿tiene aletas?",
+      "¿se comunica por ultrasonidos?",
+      "¿Es ciego?",
+      "¿Come insectos?",
+      "¿Come miel?",
+      "¿Es fuerte como un oso?"
     ]
   },
   "vegetal": {
     "respuestas": {
       "hierba": {
         "author": "mario",
-        "pattern": "0000xxxxxx"
+        "pattern": "0000xxxxxxxxx"
       },
       "lechuga": {
         "author": "mario",
-        "pattern": "1110xxxxxx"
+        "pattern": "1110xxxxxxxxx"
       },
       "fresa": {
         "author": "mario",
-        "pattern": "1010xxxxxx"
+        "pattern": "1010xxxxxxxxx"
       },
       "arbol": {
         "author": "mario",
-        "pattern": "0101xxxxxx"
+        "pattern": "0101xxxxxxxxx"
       },
       "flor": {
         "author": "pepe",
-        "pattern": "x0001xxxxx"
+        "pattern": "x0001xxxxxxxx"
       },
       "aguacate": {
         "author": "carito",
-        "pattern": "x0x001xxxx"
+        "pattern": "x0x001xxxxxxx"
       },
       "platano": {
         "author": "mario",
-        "pattern": "10x0xx1xxx"
+        "pattern": "10x0xx1xxxxxx"
       },
       "naranja": {
         "author": "mario",
-        "pattern": "1xx0000101"
+        "pattern": "1xx0000101xxx"
       },
       "limon": {
         "author": "mario",
-        "pattern": "100xxxxx1x"
+        "pattern": "100000xx10xx1"
+      },
+      "sandia": {
+        "author": "pepa",
+        "pattern": "1x100xx1xx11x"
       }
     },
     "preguntas": [
@@ -91,28 +113,41 @@
       "¿Es amarillo?",
       "¿Es una fruta?",
       "¿Tiene un sabor acido?",
-      "¿Es de color naranja?"
+      "¿Es de color naranja?",
+      "¿se come en verano?",
+      "¿tiene semillas pequeñas?",
+      "¿Tiene cascara amarga?"
     ]
   },
   "mineral": {
     "respuestas": {
       "sal": {
         "author": "mario",
-        "pattern": "100"
+        "pattern": "100xx"
       },
       "oro": {
         "author": "mario",
-        "pattern": "010"
+        "pattern": "010xx"
       },
       "cobre": {
         "author": "mario",
-        "pattern": "011"
+        "pattern": "0110x"
+      },
+      "plata": {
+        "author": "mario",
+        "pattern": "1101x"
+      },
+      "calcio": {
+        "author": "mario",
+        "pattern": "00x01"
       }
     },
     "preguntas": [
       "¿Se usa en la cocina?",
       "¿Se usa en joyería?",
-      "¿Se utiliza en las obras?"
+      "¿Se utiliza en las obras?",
+      "¿Hay cubiertos de este material?",
+      "¿Sirve para fortalecer los huesos?"
     ]
   }
 }
